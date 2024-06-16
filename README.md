@@ -13,6 +13,13 @@ Google translate (html, js) for all countries.
 -   Correct translation from Google Translate
 -   Can be used in all programming languages
 
+## Preview
+Preview before using the translation of all the languages ​​of the countries:
+
+![0000](https://github.com/mordadam/google-translate-html-js/assets/170112182/8995d201-8c7d-4476-9377-92d0b6a067df)
+
+By default, you see the front (responsive). But you can customize the front using css as you want after the initial settings.
+
 ## Usage
 
 1. Set `#gt-mordadam-43217984` to desired element. For example:
