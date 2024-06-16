@@ -1,9 +1,10 @@
-# google-translate-html-js
+# Google Translate with HTML and JS
 
 **Google translate (html, js) for all countries.**
 
 ![Google translate with html and js](https://github.com/mordadam/google-translate-html-js/assets/170112182/6629aceb-6dba-4c47-892c-7cf936fdce3c)
 
+## Features
 
 -   Open source
 -   Support for all countries
@@ -22,7 +23,7 @@
 
 Set `#gt-mordadam-43217984` to desired element. For example:
 
-```
+```html
 <div id="gt-mordadam-43217984"></div>
 ```
 
@@ -35,14 +36,15 @@ You should put the `.svg` flag files inside your project. You can place the file
 
 I have put the flag .svg files inside this project.
 
-
 ### Step 3 :
 
-Add JavaScript file and codes into head/body:
+Add JavaScript file and codes into body tag:
 
-I have put the `gt.min.js` file inside this project.
-
+```javascript
+<script src="js/gt.min.js" data-gt-widget-id="43217984"></script>
 ```
+
+```javascript
 <script type="text/javascript">
     window.gtranslateSettings = window.gtranslateSettings || {};
     window.gtranslateSettings['43217984'] = {
@@ -56,7 +58,6 @@ I have put the `gt.min.js` file inside this project.
         "flags_location": "flags\/"
     };
 </script>
-<script src="js/gt.min.js" data-gt-widget-id="43217984"></script>
 ```
 
 And finally, make your own settings in the js codes you added:
@@ -72,4 +73,4 @@ Go through all the steps above, and you'll end up with duplicate code. Finally, 
 
 ## Copyright
 
-© 2024 | google-translate-html-js was written by [Mordad](https://mkhezerlou.ir).
+© 2024 | Google Translate with HTML and JS was written by [Mordad](https://mkhezerlou.ir).
