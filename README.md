@@ -2,6 +2,8 @@
 
 **Google translate (html, js) for all countries.**
 
+![Google translate with html and js](https://github.com/mordadam/google-translate-html-js/assets/170112182/8995d201-8c7d-4476-9377-92d0b6a067df)
+
 -   Open source
 -   Support for all countries
 -   Remove or add countries for translation
@@ -13,14 +15,6 @@
 -   Correct translation from Google Translate
 -   Can be used in all programming languages
 
-## Preview
-
-Preview before using the translation of all the languages ​​of the countries:
-
-![preview](https://github.com/mordadam/google-translate-html-js/assets/170112182/8995d201-8c7d-4476-9377-92d0b6a067df)
-
-By default, you see the front (responsive). But you can customize the front using css as you want after the initial settings.
-
 ## Usage
 
 ### Step 1 :
@@ -31,9 +25,21 @@ Set `#gt-mordadam-43217984` to desired element. For example:
 <div id="gt-mordadam-43217984"></div>
 ```
 
+
 ### Step 2 :
 
+You should put the `.svg` flag files inside your project. You can place the files anywhere in your project. But note that all the files(.svg) will be placed in the svg folder.
+
+> The name of the parent folder of the files must be "svg/"
+
+I have put the flag .svg files inside this project.
+
+
+### Step 3 :
+
 Add JavaScript file and codes into head/body:
+
+I have put the `gt.min.js` file inside this project.
 
 ```
 <script type="text/javascript">
@@ -52,20 +58,12 @@ Add JavaScript file and codes into head/body:
 <script src="js/gt.min.js" data-gt-widget-id="43217984"></script>
 ```
 
-### Step 3 :
-
-You should put the `.svg` flag files inside your project. You can place the files anywhere in your project. But note that all the files(.svg) will be placed in the svg folder.
-
-> The name of the parent folder of the files must be "svg/"
-
-### Step 4 :
-
-Make your own settings in the js codes you added:
+And finally, make your own settings in the js codes you added:
 
 -   Choose your default language => `default_language`
 -   Choose your languages => `languages`
 -   Select your element => `wrapper_selector`
--   Set your flags directory (before svg/\*) => `flags_location`
+-   Set your flags directory (before svg folder) => `flags_location`
 
 ## Set more than one in page
 
