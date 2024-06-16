@@ -22,7 +22,7 @@ Google translate (html, js) for all countries.
 ```
 
 
-2. We add JavaScript file and codes into <head> or <body>:
+2. We add JavaScript file and codes into head/body:
 ```
 <script type="text/javascript">
     window.gtranslateSettings = window.gtranslateSettings || {};
@@ -41,7 +41,8 @@ Google translate (html, js) for all countries.
 ```
 
 3. You should put the svg files of the flags that I provided you inside your project.
-> You can place the files anywhere in your project. But note that all the files will be placed in the svg folder. **(The name of the parent folder of the files must be "svg/")**
+You can place the files anywhere in your project. But note that all the files will be placed in the svg folder.
+> The name of the parent folder of the files must be "svg/"
 
 4. You need to make your own JavaScript settings:
 
@@ -55,4 +56,4 @@ Google translate (html, js) for all countries.
 Go through all the steps above, and you'll end up with duplicate code. Finally, by setting `data-gt-widget-id` and a different value and setting the same value in `window.gtranslateSettings`, you can have multiple translation selectors.
 
 ## Copyright
-(c) 2024 - google-translate-html-js was written by [Mordad](https://mkhezerlou.ir).
+© 2024 | google-translate-html-js was written by [Mordad](https://mkhezerlou.ir).
