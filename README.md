@@ -29,7 +29,7 @@ By default, you see the front (responsive). But you can customize the front usin
 ```
 
 
-2. We add JavaScript file and codes into head/body:
+2. Add JavaScript file and codes into head/body:
 ```
 <script type="text/javascript">
     window.gtranslateSettings = window.gtranslateSettings || {};
@@ -47,8 +47,8 @@ By default, you see the front (responsive). But you can customize the front usin
 <script src="js/gt.min.js" data-gt-widget-id="43217984"></script>
 ```
 
-3. You should put the svg files of the flags that I provided you inside your project.
-You can place the files anywhere in your project. But note that all the files will be placed in the svg folder.
+3. You should put the `.svg` flag files inside your project.
+You can place the files anywhere in your project. But note that all the files(.svg) will be placed in the svg folder.
 > The name of the parent folder of the files must be "svg/"
 
 4. You need to make your own JavaScript settings:
