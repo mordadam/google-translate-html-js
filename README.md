@@ -1,6 +1,6 @@
 # google-translate-html-js
 
-Google translate (html, js) for all countries.
+**Google translate (html, js) for all countries.**
 
 -   Open source
 -   Support for all countries
@@ -14,6 +14,7 @@ Google translate (html, js) for all countries.
 -   Can be used in all programming languages
 
 ## Preview
+
 Preview before using the translation of all the languages ​​of the countries:
 
 ![preview](https://github.com/mordadam/google-translate-html-js/assets/170112182/8995d201-8c7d-4476-9377-92d0b6a067df)
@@ -22,14 +23,18 @@ By default, you see the front (responsive). But you can customize the front usin
 
 ## Usage
 
-1. Set `#gt-mordadam-43217984` to desired element. For example:
+### Step 1 :
+
+Set `#gt-mordadam-43217984` to desired element. For example:
 
 ```
 <div id="gt-mordadam-43217984"></div>
 ```
 
+### Step 2 :
 
-2. Add JavaScript file and codes into head/body:
+Add JavaScript file and codes into head/body:
+
 ```
 <script type="text/javascript">
     window.gtranslateSettings = window.gtranslateSettings || {};
@@ -47,20 +52,25 @@ By default, you see the front (responsive). But you can customize the front usin
 <script src="js/gt.min.js" data-gt-widget-id="43217984"></script>
 ```
 
-3. You should put the `.svg` flag files inside your project.
-You can place the files anywhere in your project. But note that all the files(.svg) will be placed in the svg folder.
+### Step 3 :
+
+You should put the `.svg` flag files inside your project. You can place the files anywhere in your project. But note that all the files(.svg) will be placed in the svg folder.
+
 > The name of the parent folder of the files must be "svg/"
 
-4. You need to make your own JavaScript settings:
+### Step 4 :
 
-- Choose your default language             => `default_language`
-- Choose your languages                    => `languages`
-- Select your element                      => `wrapper_selector`
-- Set your flags directory (before svg/*)  => `flags_location`
+Make your own settings in the js codes you added:
+
+-   Choose your default language => `default_language`
+-   Choose your languages => `languages`
+-   Select your element => `wrapper_selector`
+-   Set your flags directory (before svg/\*) => `flags_location`
 
 ## Set more than one in page
 
 Go through all the steps above, and you'll end up with duplicate code. Finally, by setting `data-gt-widget-id` and a different value and setting the same value in `window.gtranslateSettings`, you can have multiple translation selectors.
 
 ## Copyright
+
 © 2024 | google-translate-html-js was written by [Mordad](https://mkhezerlou.ir).
