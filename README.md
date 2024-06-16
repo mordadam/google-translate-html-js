@@ -2,7 +2,8 @@
 
 **Google translate (html, js) for all countries.**
 
-![Google translate with html and js](https://github.com/mordadam/google-translate-html-js/assets/170112182/8995d201-8c7d-4476-9377-92d0b6a067df)
+![Google translate with html and js](https://github.com/mordadam/google-translate-html-js/assets/170112182/6629aceb-6dba-4c47-892c-7cf936fdce3c)
+
 
 -   Open source
 -   Support for all countries
@@ -12,7 +13,7 @@
 -   Beautiful ui
 -   Possibility of customization for programmers (HTML, Css, JavaScript)
 -   High translation speed
--   Correct translation from Google Translate
+-   Translation from [Google Translate](https://translate.google.com)
 -   Can be used in all programming languages
 
 ## Usage
