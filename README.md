@@ -1,6 +1,8 @@
 # Google Translate with HTML and JS
 
-**Google translate (html, js) for all countries.**
+**Google Translate with HTML and JS for all countries.** 
+
+You can use it in all web programming languages (PHP, Python, C#, ...) ​​and in all their frameworks (Laravel, DJango, .Net, ...) for website. These codes are very well written so that you can use them easily.
 
 ![Google translate with html and js](https://github.com/mordadam/google-translate-html-js/assets/170112182/6629aceb-6dba-4c47-892c-7cf936fdce3c)
 
